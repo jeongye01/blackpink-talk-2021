@@ -1,0 +1,12 @@
+.more-main {
+  margin-top: 100px;
+}
+.more-main .user-component {
+  margin-bottom: 25px;
+  border-bottom: var(--border-line);
+}
+.more-main .icons {
+  padding: 15px;
+  border: var(--border-line);
+  border-radius: 15px;
+}

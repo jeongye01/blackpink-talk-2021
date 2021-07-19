@@ -1,0 +1,89 @@
+.music-player__body {
+  background-color: #22304a;
+}
+.music-player-main {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@keyframes rotate {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+.play-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  box-shadow: rgba(255, 182, 193, 0.7) 0px 0px 10px;
+  margin-bottom: 40px;
+  animation: rotate 60s linear infinite;
+}
+.play-cover {
+  position: relative;
+}
+.cd-center {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  background-color: #22304a;
+  top: 115px;
+  left: 115px;
+  border: 6px solid white;
+  border-radius: 50%;
+}
+.play-progress {
+  width: 70%;
+  margin-bottom: 35px;
+}
+.progress__time {
+  display: flex;
+  justify-content: space-between;
+  color: pink;
+}
+.progress-bar {
+  position: relative;
+  margin-top: 15px;
+}
+
+.progress__played {
+  height: 4px;
+  border-radius: 5px;
+  background-color: pink;
+  width: 60%;
+  position: absolute;
+}
+
+.progress__total {
+  background-color: #e9e9e9;
+  height: 4px;
+  border-radius: 5px;
+}
+
+.progress__marker {
+  height: 10px;
+  width: 10px;
+  background-color: pink;
+  border-radius: 50%;
+  position: absolute;
+  top: -3.5px;
+  left: 58%;
+}
+.play-actions,
+.play-icons {
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+.play-actions {
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+.play-icons {
+  justify-content: space-between;
+  opacity: 0.3;
+}

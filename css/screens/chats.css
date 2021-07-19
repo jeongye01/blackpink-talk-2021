@@ -1,0 +1,15 @@
+.message_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.message_time {
+  margin-bottom: 8px;
+}
+.chats-main {
+  margin-top: 100px;
+}
+.chats-list a {
+  color: inherit;
+}

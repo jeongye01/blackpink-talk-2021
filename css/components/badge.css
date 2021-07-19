@@ -1,0 +1,12 @@
+.badge {
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-weight: 700;
+  color: white;
+  background-color: rgb(139, 3, 167);
+  font-family: "Cinzel", serif;
+}

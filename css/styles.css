@@ -1,0 +1,38 @@
+@import "reset.css";
+@import "variables.css";
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Uchen&display=swap");
+/*components*/
+@import "components/status-bar.css";
+@import "components/nav.css";
+@import "components/main-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/icon-box.css";
+@import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
+/*screens*/
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/chats.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat-room.css";
+@import "screens/music-player.css";
+body {
+  color: rgb(200, 200, 200);
+  background-color: rgb(40, 40, 40);
+  height: 100vh;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.main-main {
+  padding: 0px 18px;
+}
+.fa-chevron-right {
+  color: pink;
+}

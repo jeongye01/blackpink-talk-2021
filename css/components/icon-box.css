@@ -1,0 +1,18 @@
+.icon-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.icon-box__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon-box__icon i {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+.icon-box__icon span {
+  font-size: 14px;
+  display: block;
+}

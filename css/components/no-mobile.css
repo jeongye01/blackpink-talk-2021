@@ -1,0 +1,25 @@
+#no-mobile {
+  position: absolute;
+  z-index: 99;
+  height: 100vh;
+  background-color: #e0517c;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 32px;
+  top: 0;
+  color: black;
+  font-family: "Cinzel", serif;
+  font-weight: 900;
+}
+#no-mobile span {
+  margin-left: 20px;
+  margin-bottom: 25px;
+}
+
+@media screen and (max-width: 500px) {
+  #no-mobile {
+    display: none;
+  }
+}
